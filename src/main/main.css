@@ -1,0 +1,1619 @@
+.navbarContainer {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home{
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Caveat', cursive;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: white;
+    margin-left: 150px;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 
+                border-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.blackHome{
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Caveat', cursive;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: #1a1a1d;
+    margin-left: 150px;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 
+                border-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.login{
+    width: 100px;
+    height: 53px;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-decoration: none;
+    border: 0.15rem solid transparent;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #D14836;
+    font-weight: 600;
+    font-family: 'Raleway', serif;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    min-width: 64px;
+    padding: 6px 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.pinkLogin{
+    width: 100px;
+    height: 53px;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-decoration: none;
+    border: 0.15rem solid transparent;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #ee4c7c;
+    font-weight: 600;
+    font-family: 'Raleway', serif;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    min-width: 64px;
+    padding: 6px 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.pinkLogin:hover{
+    border-color: currentColor;
+}
+
+.login:hover{
+    border-color: currentColor;
+}
+
+.registration{
+    width: 350px;
+    height: 53px;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-decoration: none;
+    background-color: #D14836;
+    border: 0.15rem solid #D14836;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Raleway', serif;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    min-width: 64px;
+    padding: 6px 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 18px;
+    margin-right: 150px;
+}
+
+.pinkReg{
+    width: 350px;
+    height: 53px;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-decoration: none;
+    background-color: #ee4c7c;
+    border: 0.15rem solid #ee4c7c;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Raleway', serif;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    min-width: 64px;
+    padding: 6px 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 18px;
+    margin-right: 150px;
+}
+
+.pinkReg:hover{
+    background-color: #e92f66;
+    border: #e92f66;
+}
+
+
+.registration:hover{
+    background-color: #d3230c;
+    border: #d3230c;
+}
+
+/* FIRSTPAGE */
+
+.firstPageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    background: #1a1a1d;
+    height: 933px;
+}
+
+.phone{
+    width: 650px;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-right: 0px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+    
+}
+
+@keyframes float {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.oneLink{
+    color: white;
+    margin-top: 80px;
+    margin-left: 148px;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Raleway', serif;
+}
+
+.forAll{
+    color: white;
+    font-size: 40px;
+    margin-top: -60px;
+    font-weight: 500;
+    font-family: 'Raleway', serif;
+}
+
+.combine{
+    color: #707074;
+    font-weight: 600;
+    font-family: 'Raleway', serif;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+
+.share{
+    width: 530px;
+    color: #707074;
+    font-weight: 600;
+    font-family: 'Raleway', serif;
+    margin-left: 150px;
+    font-size: 19px;
+    text-align: left;
+}
+
+.firstPage-registration{
+    width: 350px;
+    height: 53px;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-decoration: none;
+    background-color: #D14836;
+    border: 0.15rem solid #D14836;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Raleway', serif;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    min-width: 64px;
+    padding: 6px 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-right: 35px;
+}
+    
+.firstPage-registration:hover{
+    background-color: #d3230c;
+    border: #d3230c;
+}
+
+/* SECONDPAGE */
+
+.secondPageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eae7dc;
+    height: 929px;
+}
+
+.iphone{
+    width: 600px;
+    margin-top: 70px;
+    animation: rotation 5s ease-in-out infinite;
+}
+
+@keyframes rotation{
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-20px)  rotate(2deg);
+    }
+
+    100% {
+        transform: translateY(0px)  rotate(0deg);
+    }
+}
+
+.secondPageContent{
+    margin-left: 200px;
+}
+
+.content{
+    margin-bottom: -20px;
+    margin-left: 60px;
+    color: #2e2c34;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Raleway', serif;
+}
+
+.place{
+    margin-right: 235px;
+    color: #2e2c34;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Raleway', serif;
+}
+
+.shareAll{
+    width: 500px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: justify;
+    color: #726b8c;
+    font-weight: 600;
+    font-family: 'Raleway', serif;
+    font-size: 19px;
+}
+
+.secondPage-registration{
+    width: 350px;
+    height: 53px;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-decoration: none;
+    background-color: #ee4c7c;
+    border: 0.15rem solid #ee4c7c;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Raleway', serif;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    min-width: 64px;
+    padding: 6px 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 18px;
+    margin-bottom: 60px;
+    margin-right: 300px;
+}
+    
+.secondPage-registration:hover{
+    background-color: #e92f66;
+    border: #e92f66;
+}
+
+@media (max-width: 1632px) {
+
+.phone{
+        margin-left: 0px;
+}
+
+.secondPageContent{
+    margin-left: 0px;
+}
+        
+}
+
+@media (max-width: 1409px) {
+
+    
+.iphone{
+    width: 550px;
+}
+
+.content{
+    font-size: 35px;
+}
+
+.place{
+    margin-right: 205px;
+    font-size: 30px;
+}
+
+.secondPage-registration{
+    margin-right: 210px;
+}
+            
+}
+
+@media (max-width: 1330px) {
+
+    .home{
+        margin-left: 100px;
+    }
+
+    .blackHome{
+        margin-left: 100px;
+    }
+
+    .registration{
+        margin-right: 100px;
+    }
+
+    .pinkReg{
+        margin-right: 100px;
+    }
+
+    .phone{
+        width: 600px;
+    }
+
+    .oneLink{
+        font-size: 60px;
+        margin-left: 100px;
+    }
+
+    .share{
+        width: 450px;
+        font-size: 16px;
+        margin-left: 104px;
+    }
+
+    .combine{
+        font-size: 16px;
+        margin-right: 55px;
+    }
+
+    .forAll{
+        margin-right: 13px;
+    }
+        
+}
+
+@media (max-width: 1262px) {
+
+    
+.iphone{
+    width: 500px;
+}
+
+.content{
+    font-size: 30px;
+}
+
+.place{
+    font-size: 25px;
+    margin-right: 177px;
+}
+
+.secondPage-registration{
+    margin-right: 130px;
+}
+            
+}
+
+@media (max-width: 1190px) {
+
+.home{
+    margin-left: 70px;
+}
+
+.registration{
+    margin-right: 70px;
+}
+
+.blackHome{
+    margin-left: 70px;
+}
+
+.pinkReg{
+    margin-right: 70px;
+}
+
+.phone{
+    width: 600px;
+}
+
+.oneLink{
+    font-size: 55px;
+    margin-left: 65px;
+}
+
+.share{
+    width: 450px;
+    font-size: 16px;
+    margin-left: 70px;
+}
+
+.forAll{
+    font-size: 35px;
+    margin-right: 55px;
+}
+        
+}
+
+@media (max-width: 1122px) {
+
+.home{
+    margin-left: 70px;
+}
+
+.registration{
+    margin-right: 70px;
+}
+
+.blackHome{
+    margin-left: 70px;
+}
+
+.pinkReg{
+    margin-right: 70px;
+}
+
+.phone{
+    width: 550px;
+}
+
+.oneLink{
+    font-size: 50px;
+    margin-left: 65px;
+    margin-bottom: 65px;
+}
+
+.share{
+    width: 380px;
+    font-size: 14px;
+    margin-left: 70px;
+}
+
+.forAll{
+    font-size: 30px;
+    margin-right: 55px;
+}
+
+.combine{
+    font-size: 14px;
+}
+
+.firstPage-registration{
+    font-size: 15px;
+    width: 300px;
+    height: 45px;
+}
+
+.iphone{
+    width: 450px;
+}
+
+}
+        
+@media (max-width: 1084px) {
+
+.iphone{
+    width: 450px;
+}
+
+.content{
+    font-size: 25px;
+}
+
+.place{
+    font-size: 20px;
+    margin-right: 140px;
+}
+
+.shareAll{
+    width: 400px;
+    font-size: 16px;
+}
+
+.secondPage-registration{
+    margin-right: 80px;
+    font-size: 15px;
+    width: 300px;
+    height: 45px;
+}
+
+}
+
+@media (max-width: 1023px) {
+
+.home{
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.registration{
+    margin-right: 40px;
+    font-size: 15px;
+    width: 300px;
+    height: 45px;
+}
+
+.blackHome{
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.pinkReg{
+    margin-right: 40px;
+    font-size: 15px;
+    width: 300px;
+    height: 45px;
+}
+
+.login{
+    font-size: 16px;
+}
+
+.phone{
+    width: 500px;
+    margin-top: 0px;
+}
+
+.oneLink{
+    font-size: 45px;
+    margin-left: 23px;
+    margin-bottom: 65px;
+    margin-top: 0px;
+}
+
+.share{
+    width: 380px;
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+.forAll{
+    font-size: 25px;
+    margin-right: 107px;
+}
+
+.combine{
+    font-size: 14px;
+    margin-right: 65px;
+}
+
+.firstPage-registration{
+    font-size: 15px;
+    width: 300px;
+    height: 45px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+        
+}
+
+@media (max-width: 980px) {
+
+.iphone{
+    width: 400px;
+}
+
+.content{
+    font-size: 25px;
+}
+
+.place{
+    font-size: 20px;
+    margin-right: 140px;
+}
+
+.shareAll{
+    width: 400px;
+    font-size: 16px;
+}
+
+.secondPage-registration{
+    margin-right: 80px;
+    font-size: 15px;
+    width: 300px;
+    height: 45px;
+}
+
+}
+
+@media (max-width: 920px) {
+
+.firstPageContainer{
+    height: 700px;
+}
+
+.secondPageContainer{
+    height: 700px;
+}
+
+.home{
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.registration{
+    margin-right: 40px;
+    font-size: 15px;
+    width: 300px;
+    height: 45px;
+}
+
+.login{
+    font-size: 16px;
+}
+
+.phone{
+    width: 450px;
+    margin-top: 70px;
+}
+
+.oneLink{
+    font-size: 40px;
+    margin-left: 28px;
+    margin-bottom: 65px;
+    margin-top: 70px;
+}
+
+.share{
+    width: 320px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.forAll{
+    font-size: 20px;
+    margin-right: 107px;
+}
+
+.combine{
+    font-size: 12px;
+    margin-right: 55px;
+}
+
+.firstPage-registration{
+    font-size: 13px;
+    width: 280px;
+    height: 42px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.iphone{
+    width: 400px;
+}
+
+.content{
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.place{
+    font-size: 15px;
+    margin-right: 122px;
+}
+
+.shareAll{
+    width: 300px;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+.secondPage-registration{
+    margin-right: 0px;
+    font-size: 15px;
+    width: 300px;
+    height: 45px;
+}
+        
+}
+@media (max-width: 836px) {
+    
+.iphone{
+    width: 350px;
+}
+
+.content{
+    font-size: 20px;
+    margin-bottom: -10px;
+    margin-left: 30px;
+}
+
+.place{
+    font-size: 15px;
+    margin-right: 150px;
+}
+
+.shareAll{
+    width: 300px;
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+.secondPage-registration{
+    margin-right: 30px;
+    font-size: 15px;
+    width: 300px;
+    height: 45px;
+}
+        
+}
+
+@media (max-width: 806px) {
+
+.firstPageContainer{
+    height: 700px;
+}
+
+.home{
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.registration{
+    margin-right: 40px;
+    font-size: 15px;
+    width: 300px;
+    height: 45px;
+}
+
+.login{
+    font-size: 16px;
+}
+
+.phone{
+    width: 400px;
+    margin-top: 70px;
+}
+
+.oneLink{
+    font-size: 35px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 65px;
+    margin-top: 70px;
+}
+
+.share{
+    width: 320px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.forAll{
+    font-size: 20px;
+    margin-right: 107px;
+}
+
+.combine{
+    font-size: 12px;
+    margin-right: 55px;
+}
+
+.firstPage-registration{
+    font-size: 13px;
+    width: 280px;
+    height: 42px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+        
+}
+
+@media (max-width: 752px) {
+
+.firstPageContainer{
+    flex-direction: column;
+    height: 1000px;
+}
+
+.home{
+    font-size: 23px;
+    margin-left: 40px;
+}
+
+.registration{
+    margin-right: 40px;
+    font-size: 13px;
+    width: 260px;
+    height: 42px;
+}
+
+.blackHome{
+    font-size: 23px;
+    margin-left: 40px;
+}
+
+.pinkReg{
+    margin-right: 40px;
+    font-size: 13px;
+    width: 260px;
+    height: 42px;
+}
+
+.login{
+    font-size: 14px;
+}
+
+.pinkLogin{
+    font-size: 14px;
+}
+
+.phone{
+    width: 450px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.oneLink{
+    font-size: 35px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 65px;
+    margin-top: 200px;
+}
+
+.share{
+    width: 320px;
+    font-size: 12px;
+    margin-left: 0px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.forAll{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.combine{
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.firstPage-registration{
+    font-size: 13px;
+    width: 280px;
+    height: 42px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.secondPageContainer{
+    flex-direction: column;
+    height: 1000px;
+}
+
+.iphone{
+    width: 350px;
+}
+
+.content{
+    margin-top: 40px;
+    font-size: 30px;
+    margin-bottom: -10px;
+    margin-left: 0px;
+}
+
+.place{
+    font-size: 25px;
+    margin-right: 0px;
+}
+
+.shareAll{
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-left: 110px;
+    text-align: center;
+}
+
+.secondPage-registration{
+    margin-right: 0px;
+    font-size: 16px;
+    width: 300px;
+    height: 45px;
+}
+        
+}
+
+:root {
+    --primary-bg: #242526;
+    --secondary-bg: #fff;
+    --primary-text-color: #555;
+    --secondary-text-color: #cecece;
+    --border-radius: 8px;
+    --speed: 500ms;
+}
+
+.imgDropDown{
+    display: none;
+    position: absolute;
+    top: 23px;
+    right: 30px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.blackImgDropDown{
+    display: none;
+    position: absolute;
+    top: 23px;
+    right: 30px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #1a1a1d;
+}
+  
+  .dropdown-menu{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+  }
+  
+  .dropdown-menu::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 20px;
+    height: 20px;
+    width: 20px;
+    background: var(--secondary-bg);
+    transform: rotate(45deg);
+  }
+  
+  .dropdown-menu.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: var(--speed) ease;
+  }
+  
+  .dropdown-menu.inactive{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: var(--speed) ease;
+  }
+  
+  .dropdown-menu ul li{
+    padding: 10px  0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  
+  .dropdownItem{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .loginDropDown{
+    width: 100px;
+    height: 53px;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-decoration: none;
+    border: 0.15rem solid transparent;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #D14836;
+    font-weight: 600;
+    font-family: 'Raleway', serif;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    padding: 6px 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 22px;
+    position: relative;
+    left: 60px;
+    margin-bottom: 20px;
+}
+
+.loginDropDown:hover{
+    border-color: currentColor;
+}
+
+.registrationDropDown{
+    width: 260px;
+    height: 53px;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-decoration: none;
+    background-color: #D14836;
+    border: 0.15rem solid #D14836;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Raleway', serif;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    padding: 6px 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 20px;
+    position: relative;
+    right: 20px;
+}
+  
+.registrationDropwDown:hover{
+    color: white;
+    background-color: #d3230c;
+    border: #d3230c;
+}
+
+.pinkLoginDropDown{
+    width: 100px;
+    height: 53px;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-decoration: none;
+    color: #ee4c7c;
+    border: 0.15rem solid transparent;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: 600;
+    font-family: 'Raleway', serif;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    padding: 6px 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 22px;
+    position: relative;
+    left: 60px;
+    margin-bottom: 20px;
+}
+
+.pinkLoginDropDown:hover{
+    border-color: currentColor;
+}
+
+.pinkRegDropDown{
+    width: 260px;
+    height: 53px;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-decoration: none;
+    background-color: #ee4c7c;
+    border: 0.15rem solid #ee4c7c;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Raleway', serif;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    padding: 6px 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 20px;
+    position: relative;
+    right: 20px;
+}
+  
+.pinkRegDropwDown:hover{
+    background-color: #e92f66;
+    border: #e92f66;
+}
+
+@media (max-width: 600px){
+
+.phone{
+    width: 400px;
+}
+
+.registration{
+    display: none;
+}
+
+.login{
+    display: none;
+}
+
+.pinkLogin{
+    display: none;
+}
+
+.pinkReg{
+    display: none;
+}
+
+.menu-trigger img{
+    display: block;
+}
+
+}
+
+@media (max-width: 560px){
+
+.content{
+    font-size: 25px;
+}
+
+.place{
+    font-size: 20px;
+}
+
+.shareAll{
+    margin-left: 65px;
+}
+
+}
+
+@media (max-width: 453px){
+
+.phone{
+    width: 350px;
+}
+
+.content{
+    font-size: 20px;
+}
+
+.place{
+    font-size: 15px;
+}
+
+.shareAll{
+    margin-left: 26px;
+    font-size: 14px
+}
+
+.registrationDropDown{
+    font-size: 15px;
+    width: 200px;
+    height: 47px;
+}
+
+.loginDropDown{
+    font-size: 17px;
+    left: 27px;
+    margin-bottom: 5px;
+}
+
+.pinkRegDropDown{
+    font-size: 15px;
+    width: 200px;
+    height: 47px;
+}
+
+.pinkLoginDropDown{
+    font-size: 17px;
+    left: 27px;
+    margin-bottom: 5px;
+}
+
+}
+
+@media (max-width: 402px){
+
+.firstPageContainer{
+    height: 800px;
+}
+
+.secondPageContainer{
+    height: 800px;
+}
+
+.oneLink{
+    font-size: 30px;
+    margin-top: 130px;
+}
+
+.phone{
+    width: 300px;
+}
+
+.iphone{
+    width: 300px;
+}
+
+.content{
+    font-size: 20px;
+}
+
+.place{
+    font-size: 15px;
+}
+
+.shareAll{
+    margin-left: 26px;
+    font-size: 14px
+}
+
+}
+
+@media (max-width: 369px){
+
+.firstPageContainer{
+    height: 800px;
+}
+
+.secondPageContainer{
+    height: 800px;
+}
+
+.oneLink{
+    font-size: 30px;
+}
+
+.phone{
+    width: 250px;
+}
+
+.iphone{
+    width: 250px;
+}
+
+.content{
+    font-size: 15px;
+}
+
+.place{
+    font-size: 13px;
+}
+
+.shareAll{
+    margin-left: 2px;
+    font-size: 12px
+}
+
+.secondPage-registration{
+    width: 250px;
+    font-size: 14px;
+}
+
+}
+
+@media (max-width: 340px){
+
+.oneLink{
+    font-size: 25px;
+}
+
+.forAll{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.share{
+    width: 200px;
+    margin-left: 40px;
+}
+
+.combine{
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.firstPage-registration{
+    margin-right: 0px;
+}
+
+}
+    
+

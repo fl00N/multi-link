@@ -1,0 +1,56 @@
+.formInput{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
+input{
+    width: 328px;
+    padding: 15px;
+    margin: 10px 0px 10px -30px;
+    border-radius: 10px;
+    border: 1px solid #e6eefc;
+    outline: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+input:focus{
+    border: 1px solid #6DD5FA;
+}
+  
+label{
+    position: relative;
+    top: 43px;
+    left: 13px;
+    font-size: 14px;
+    color: gray;
+    margin-left: -25px;
+    pointer-events: none;
+}
+
+input:valid[focused="true"] ~ label,
+input:focus[focused="true"] ~ label{
+    color: #6DD5FA;
+}
+
+span{
+    font-size: 12px;
+    color: red;
+    display: none;
+    margin-left: 0px;
+}
+
+.errorMessageEmail{
+    margin-left: 55px;
+}
+
+input:invalid[focused="true"]{
+    border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+}
